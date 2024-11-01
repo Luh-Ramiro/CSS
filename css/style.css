@@ -1,0 +1,32 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(21, 106, 180);
+    font-family: arial, sans-serif;
+    display: flex;
+}
+
+.card{
+    width: 300px;
+    padding: 20px;
+    background-color:aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px;
+    text-align: center;
+
+}
+
+#card_perfil_img_id{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    
+}
